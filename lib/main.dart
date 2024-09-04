@@ -28,16 +28,13 @@ class HomeScreen extends StatefulWidget {
 }
 
 class _HomeScreenState extends State<HomeScreen> {
-  final GlobalKey<SduiPageBuilderState> pageBKey =
-      GlobalKey<SduiPageBuilderState>();
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
         title: const Text('Server Driven UI'),
       ),
-      body: SduiPageBuilder(
-        key: pageBKey,
+      body: const SduiPageBuilder(
         url: 'https://dummyjson.com/c/a65d-f96b-4a03-937a',
       ),
     );
