@@ -14,3 +14,10 @@ A few resources to get you started if this is your first Flutter project:
 For help getting started with Flutter development, view the
 [online documentation](https://docs.flutter.dev/), which offers tutorials,
 samples, guidance on mobile development, and a full API reference.
+
+
+Steps:
+1. Get pull from git
+2. Execute command "flutter create ."
+3. Execute command "flutter pub get"
+4. now check if all things are fine , we can execute
